@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: linear-gradient(150deg, #0093E9 0%, #80D0C7 100%);;
+  }
+  
+  h1 {
+    margin: 1em 0 0 0;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    height: 85vh;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #0093E9;
+    border-radius: 5px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem auto;
+  }
+  
+  input {
+    color: #ffffff;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    margin: 0.5em 0 0 0;
+    min-height: 2em;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  #description {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  #comments {
+    margin-top: 1rem;
+  }
+  
+  #submit {
+    width: 60%;
+    margin: 1rem auto;
+    display: block;
+    background-color: #1adc00;
+    border: none;
+    border-radius: 5px;
+  }
